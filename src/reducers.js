@@ -1,4 +1,4 @@
-import {actionTypes} from '../types'
+import {actionTypes} from './action'
 import products from '../product.json'
 
 const initProducts = [...products]
