@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import CardProduct from './CardProduct';
-import { addToCart } from '../action';
+import { addToCart } from '../type';
 
 class Products extends Component {
     render() {
