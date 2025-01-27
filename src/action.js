@@ -1,4 +1,4 @@
-import {actionTypes} from '../types'
+import {actionTypes} from './action'
 
 export const addToCart = (product) => ({
     type: actionTypes.addToCart,
